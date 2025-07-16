@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { FacebookIcon, TwitterIcon, InstagramIcon, Mail, Phone, MapPin } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -20,13 +20,13 @@ export const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Facebook className="h-5 w-5" />
+                <FacebookIcon className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter className="h-5 w-5" />
+                <TwitterIcon className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Instagram className="h-5 w-5" />
+                <InstagramIcon className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -117,13 +117,14 @@ export const Footer: React.FC = () => {
                 <p className="font-medium">Created by:</p>
                 <p className="text-white font-semibold">Vikhram S</p>
                 <p className="text-gray-500">Software Developer</p>
-                <a 
-                  href="mailto:vikhrams@saveetha.ac.in" 
-                  className="text-blue-400 hover:text-blue-300 transition-colors"
-                >
-                  vikhrams@saveetha.ac.in
-                </a>
-              </div>
+                <p className="text-gray-500">Saveetha Engineering College</p>
+              </div>  
+              <a 
+                href="mailto:vikhrams@saveetha.ac.in" 
+                className="text-blue-400 hover:text-blue-300 transition-colors"
+              >
+                vikhrams@saveetha.ac.in
+              </a>
             </div>
           </div>
         </div>

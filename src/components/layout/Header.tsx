@@ -4,7 +4,6 @@ import { Search, ShoppingCart, Heart, Menu, X, Sun, Moon, User } from 'lucide-re
 import { useCart } from '../../contexts/CartContext';
 import { useWishlist } from '../../contexts/WishlistContext';
 import { useTheme } from '../../contexts/ThemeContext';
-import { Button } from '../ui/Button';
 import { SearchBar } from '../common/SearchBar';
 
 export const Header: React.FC = () => {

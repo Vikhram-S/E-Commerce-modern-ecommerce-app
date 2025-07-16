@@ -50,20 +50,20 @@ export const Home: React.FC = () => {
               <Button
                 size="lg"
                 variant="secondary"
-                className="bg-white text-blue-600 hover:bg-gray-100"
+                className="bg-gradient-to-r from-purple-500 to-blue-500 text-white border-0 hover:from-blue-500 hover:to-purple-500 hover:text-white"
               >
                 <Link to="/products" className="flex items-center space-x-2">
                   <span>Shop Now</span>
                   <ArrowRight className="h-5 w-5" />
                 </Link>
               </Button>
-              <Button
+                <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-blue-600"
-              >
+                className="bg-white text-blue-600 hover:bg-gray-100"
+                >
                 Learn More
-              </Button>
+                </Button>
             </div>
           </div>
         </div>
